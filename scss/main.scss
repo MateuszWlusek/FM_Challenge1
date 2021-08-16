@@ -1,5 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import '../scss/generic/reset';
+@import '../scss/generic/breakpoints';
+@import '../scss/settings/all';
+@import '../scss/settings/fonts';
+@import '../scss/settings/colors';
+@import '../scss/elements/container';
+@import '../scss/elements/box';
