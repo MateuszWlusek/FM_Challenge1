@@ -1,7 +1,7 @@
 .box {
     position: relative;
-    width: 80%;
-    height: 60vh;
+    width: 32em;
+    height: 37em;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -82,5 +82,9 @@
         border-radius: 50%;
         border: 5px solid white;
         top: calc(30% - 9.6em/2);
+    }
+
+    @include desktop {
+        width: 35em;
     }
 }
